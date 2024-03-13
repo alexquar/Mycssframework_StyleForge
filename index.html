@@ -3,11 +3,20 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/index.css">
-  <title>Complete SASS</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <title>StyleForge Example</title>
 </head>
 <body>
-  <div>
+  <nav class="navbar justify-between">
+    <div class="container">
+      <h1 class="site-title text-lightblue"><a href="homepage.html">StyleForge</a></h1>
+      <ul class="display-f">
+        <li class="ml-1 text-hover-yellowish pr-2"><a href="documentation.html">Documentation</a></li>
+        <li class="ml-1 text-hover-yellowish pl-2"><a href="index.html">Examples</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container pt-3">
     <!-- colors -->
     <h2 class="mb-2">Colors</h2>
     <span class="text-primary">primary text</span> | 
@@ -84,12 +93,52 @@
       <p class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. In sunt, quo totam aliquam praesentium ducimus tempore sapiente quia nulla optio? Lorem ipsum, dolor sit amet consectetur <a href="">adipisicing elit</a>. Libero laboriosam laborum exercitationem autem commodi voluptas odio aliquid ut velit doloremque minima, quaerat dolores, corporis consequuntur totam nam id veniam maxime.</p>
     </div>
 
+    <hr class="mt-4 mb-4">
+
     <!-- grid system -->
-    <div class="responsive-test">changing colors</div>
+    <h2 class="mb-2">Grid System</h2>
+    <div class="row gap-2 justify-center">
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card">
+          <h3 class="card-title">Hello, reader</h3>
+          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card">
+          <h3 class="card-title">Hello, reader</h3>
+          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card">
+          <h3 class="card-title">Hello, reader</h3>
+          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <div class="col-12-xs col-5-sm col-3-xl">
+        <div class="card">
+          <h3 class="card-title">Hello, reader</h3>
+          <p class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+    </div>
 
     <hr class="mt-4 mb-4">
     
     <!-- utilities -->
+    <h2>Using Utilities</h2>
+    <div class="mt-2 text-orange-dark-2 bg-orange-light-5 p-2 br-xs bw-25 border-black">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</p>
+    </div>
+    <div class="mt-2 text-secondary-dark-2 bg-secondary-light-5 p-2 br-lg">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, perspiciatis!</p>
+    </div>
+    <div class="display-i-b bg-purple text-white o-10 mt-3 mr-3 p-2">opacity 10</div>
+    <div class="display-i-b bg-purple text-white o-30 mt-3 mr-3 p-2">opacity 30</div>
+    <div class="display-i-b bg-purple text-white o-50 mt-3 mr-3 p-2">opacity 50</div>
+    <div class="display-i-b bg-purple text-white o-70 mt-3 mr-3 p-2">opacity 70</div>
+    <div class="display-i-b bg-purple text-white o-90 mt-3 mr-3 p-2">opacity 90</div>
 
     <hr class="mt-4 mb-4">
 

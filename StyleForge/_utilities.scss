@@ -156,7 +156,29 @@ $utilities: (
       "lg": $font-size-lg,
       "xl": $font-size-xl,
       "xxl": $font-size-xxl
-    )
+    ) 
+  ),
+  "border-style": (
+    "prefix": "bs",
+    "values": (
+      "s": solid,
+      "da": dashed,
+      "do": dotted,
+      "g": groove,
+      "r": ridge
+    ) 
+  ),
+  "border-width": (
+    "prefix": "bw",
+    "values": (
+      "1": 1px,
+      "2": 2px,
+      "3": 3px,
+      "4": 4px,
+      "5": 5px,
+      "10": 10px,
+      "25":25px,
+    ) 
   )
 );
 
